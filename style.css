@@ -1,0 +1,68 @@
+/* google fonts link */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
+
+/* default css style */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.padding-both {
+  padding: 50px 0;
+}
+
+.padding-top {
+  padding-top: 50px;
+}
+
+.padding-bottom {
+  padding-bottom: 50px;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-div {
+  width: 48%;
+}
+/* Header area css start */
+
+header > .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .sitename > h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .sitenav li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  .sitenav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .red-button {
+    color: white;
+    background-color: #e02c6d;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  /* Header area css end */
