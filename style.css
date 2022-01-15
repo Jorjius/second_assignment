@@ -66,3 +66,69 @@ header > .container {
   
   
   /* Header area css end */
+  /* banner area css start */
+
+/* animation area start*/
+
+@keyframes mymove {
+    0% {
+      transform: translate(20px);
+    }
+  }
+  @keyframes banner_image {
+      0%{
+          transform: scale(0.95,0.95);
+      }
+  }
+  
+  /* animation area end */
+  
+  .banner-area.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .banner-content {
+    width: 90%;
+  }
+  
+  .banner-content h1 {
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+  }
+  
+  .banner-content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0;
+  }
+  
+   .red-button {
+    border-radius: 41px;
+  }
+  
+  .red-button i {
+    margin-left: 7px;
+    animation: 1s linear mymove 0s infinite alternate;
+  }
+  
+  .banner-area {
+    align-items: center;
+  }
+  
+  .banner-image {
+    text-align: center;
+    animation: 3s ease-in banner_image 0s infinite alternate;
+  }
+  
+  .banner-content {
+    width: 100%;
+  }
+  
+  .banner-image img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* banner area css end */
