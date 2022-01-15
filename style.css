@@ -157,3 +157,77 @@ header > .container {
   }
   
   /* Logo area end */
+
+  /* popular collection css start */
+
+.popular-collection-area.container {
+    max-width: 1047px;
+    margin: 0 auto;
+  }
+  
+  .popular-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  
+  .popular-collection-area h1 {
+    font-size: 28px;
+    line-height: 70px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .single-collection {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 20%);
+  }
+  
+  .collection-image,
+  .collection-info {
+    padding: 14px;
+  }
+  
+  .collection-image img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .collection-info h3 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+  }
+  
+  .collection-info h4 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+  }
+  
+  .rating > .fa-star {
+    color: orange;
+    font-size: 12px;
+  }
+  
+  .rating > span {
+    font-size: 14px;
+    margin-left: 8px;
+    font-weight: 700;
+  }
+  
+  .see-more {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+  }
+  
+  .see-more a {
+    text-decoration: none;
+    color: #e02c6d;
+    font-size: 24px;
+  }
+  
+  /* popular collection css end */
