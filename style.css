@@ -132,3 +132,28 @@ header > .container {
   }
   
   /* banner area css end */
+  /* banner area css end */
+
+/* Logo area start */
+
+.logo-area-start.container {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  
+  .logo-area {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 40px;
+    border-top: 1px solid rgba(236, 233, 233, 0.794);
+    border-bottom: 1px solid rgba(236, 233, 233, 0.794);
+  }
+  
+  .single-logo img {
+    width: 85px;
+    height: 40px;
+  }
+  
+  /* Logo area end */
