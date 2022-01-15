@@ -239,9 +239,7 @@ header > .container {
     margin: 0 auto;
   }
   
-  .custom-div-area > .flex-div {
-    /* align-items: center; */
-  }
+  
   .custom-image-area{
 
     margin-right: 20px;
@@ -321,4 +319,90 @@ header > .container {
   }
   
   /* Footer area css end */
+
+  /* Responsive CSS area start here */
+
+/* for mobile device */
+
+@media only screen and (max-width: 480px) {
+    .sitename h3 {
+      text-align: center;
+    }
+    .container {
+      width: 95%;
+    }
+    .sitenav ul li {
+      margin-left: 0;
+      display: none;
+    }
+    .banner-content {
+      text-align: center;
+    }
+    .red-button {
+      margin-bottom: 25px;
+    }
+    .flex-div {
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+    .half-div {
+      width: 100%;
+    }
+    .logo-area {
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 40px;
+      row-gap: 10px;
+    }
+    .single-logo img {
+      width: 51px;
+    }
+    .popular-collection {
+      grid-template-columns: repeat(1, 1fr);
+    }
+   .resflex{
+       display: block;
+       
+   }
+  }
+  
+  /* for tablet */
+  
+  @media only screen and (min-width: 481px) and (max-width: 912px) {
+    .container {
+      width: 95%;
+    }
+    .sitenav ul li {
+      margin-left: 0;
+    }
+    .banner-content {
+      text-align: center;
+    }
+    .red-button {
+      margin-bottom: 25px;
+    }
+    .flex-div {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .half-div {
+      width: 100%;
+    }
+    .logo-area {
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 32px;
+      row-gap: 15px;
+    }
+    .single-logo img {
+      width: 65px;
+    }
+    .popular-collection {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .custom-form-area img {
+      display: block;
+    }
+  }
+  
   
